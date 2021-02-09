@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
 export default function App_Flutter(): JSX.Element {
@@ -37,7 +37,7 @@ export default function App_Flutter(): JSX.Element {
         </strong>       
         <strong>
           - Tecnologias do Frontend:
-          <span> React, NextJS</span>
+          <span> Flutter / Dart</span>
         </strong>
         <strong>
           - Banco:
@@ -51,14 +51,14 @@ export default function App_Flutter(): JSX.Element {
             Aplicativo desenvolvido na graduação para agendamento de serviços. Com cadastro e login, é possível acessar como profissional ou como cliente. Caso seja um profissional, 
             o usuário pode cadastrar novos serviços, selecionando os dias em que está disponível e valor do serviço, verifica se algum cliente quiz realizar um agendamento de algum serviço
             cadastrado e modificar dados de seu perfil. Já o usuário cliente pode pesquisar por profissionais que estejam em sua cidade, que realizam o serviço procurado 
-            e nos dias disponíveis, sendo assim, pode enviar um convite para aceitar um agendamento do serviço. O serviço ficará pendente até o profissional aceitá-lo. E também pode alterar 
+            e nos dias disponíveis, sendo assim, pode enviar um convite para o profissional aceitar ou não um agendamento do serviço. O serviço ficará pendente até o profissional aceitá-lo. E também pode alterar 
             dados de seu perfil.</span>
         </strong>
         <strong><br />
           - Descrição técnica:
           <span>
             {' '}
-            Foi executado em Flutter/Dart, com Android Studio, com gerenciamento de login e cadastro via Authentication do Firebase
+            Foi executado em Flutter/Dart, no Android Studio, com gerenciamento de login e cadastro via Authentication do Firebase
              e Cloud Firestone como banco NoSQL dos dados de serviços, cidades, agendamentos, cadastro.
           </span>
         </strong>

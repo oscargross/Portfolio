@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
 export default function Ranking_Places(): JSX.Element {
@@ -55,14 +55,13 @@ export default function Ranking_Places(): JSX.Element {
             Site criado na graduação para relatar sua experiência em locais anonimamente. É possivel visualizar todas as opiniões
              já relatadas por todos os usuários, adicionar novos lugares, e opinar sobre algum local, além de editar ou deletar suas opiniões, caso troque após nova experiência 
              no local.
-                Utilizado RealTime Database e Authentication do Firebase, deploy no Netlify.
           </span>
         </strong>
         <strong><br />
           - Descrição técnica:
           <span>
             {' '}
-            Utilizado React no frontEnd, RealTime Database e Authentication do Firebase, controle de sessão e local storage no login.
+            Utilizado React no frontEnd, RealTime Database e Authentication do Firebase, controle de sessão, local storage no login e deploy no Netlify.
           </span>
         </strong>
         <ButtonContainer>

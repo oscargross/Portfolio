@@ -6,10 +6,10 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
-export default function Portfolio(): JSX.Element {
+export default function Portfolio_Project(): JSX.Element {
   return (
     <>
       <Head>

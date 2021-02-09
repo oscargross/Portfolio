@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
 export default function Blog_Estetica(): JSX.Element {
@@ -59,9 +59,9 @@ export default function Blog_Estetica(): JSX.Element {
           - Descrição técnica:
           <span>
             {' '}
-            Foi executado com a estrtura que o Next oferece, em conjunto com ahospedagem na vercel.
+            Foi executado com a estrutura que o Next oferece, em conjunto com a hospedagem na vercel.
             Está sendo utilizado o CMS Prismic para gerenciamento, modelamento e repositório das postagens.
-            O envio de e=mail no formulário da aba de contato foi realizado com a ajuda de um serviço
+            O envio de e-mail no formulário da aba de contato foi realizado com a ajuda de um serviço
             chamado Formspree, e arquivos "Premium" em pdf podem ser baixados com o pagamento e controle 
             realizado com a ferramenta Eduzz.
           </span>

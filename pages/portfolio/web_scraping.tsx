@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
 export default function Web_Scraping(): JSX.Element {
@@ -48,13 +48,10 @@ export default function Web_Scraping(): JSX.Element {
           - Contexto:
           <span>
             {' '}
-            O projeto teve inicio para automatizar o envio de avisos de próxima manutenção via What'sApp de equipamentos de estática, os quais precisam passar
+            O projeto teve inicio para automatizar o envio de avisos de próximas manutenções via What'sApp de equipamentos de estética, os quais precisam passar
              por calibração periódica, porém os avisos ocorriam manualmente. Com a raspagem de dados dos clientes no ERP que a empresa utiliza, foram coletados os dados 
-             de telefone/Whats dos clientes os quais seu(s) equipamento(s) passram por manutenção a um ano/seis meses atrás, e envio as mesnagens automáticas de aviso via Whats.
-             O acesso ao Whats ocorre também utilizando raspagem de dados, é feito um screenshoot da tela no momento em que o QRCode de acesso ao whats aparece na tela, e nesse momento
-             essa imagem é renderizada na tela do site para o usuário acessar o Whats apontando seu celular ao QRCode... a tela recarrega caso "não entrar no whats", pegando assim o novo 
-             QRCode.
-            No README do projeto foi descrito todo o caso de uso.
+             de telefone/Whats dos clientes os quais seu(s) equipamento(s) passaram por manutenção a um ano/seis meses atrás, e envio das mensagens automáticas de aviso via Whats.
+             No README do projeto foi descrito todo o caso de uso.
           </span>
         </strong>
         <strong><br />
@@ -62,7 +59,10 @@ export default function Web_Scraping(): JSX.Element {
           <span>
             {' '}
             Utilizado Next para montagem da interface em react e a raspagem dos dados ficou separada no diretório pages/api, onde o puppetter 
-            executou o scraping em seu navegador interno, sendo assim os dados foram repassados via API para o front.
+            executou o scraping em seu navegador interno, sendo assim os dados foram repassados da API para o front.
+            O acesso ao Whats ocorre também utilizando raspagem de dados, é feito um screenshoot da tela no momento em que o QRCode de acesso ao whats aparece na tela, e nesse momento
+             essa imagem é renderizada na tela do site para o usuário acessar o Whats apontando seu celular ao QRCode... a tela recarrega caso "não entrar no whats", pegando assim o novo 
+             QRCode.
           </span>
         </strong>
         <ButtonContainer>

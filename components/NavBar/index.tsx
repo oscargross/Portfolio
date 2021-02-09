@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
       handleNewTab(4);
     } else if (pathname === '/portfolio') {
       handleNewTab(3);
-    } else if (pathname === '/atuacoes') {
+    } else if (pathname === '/curriculo') {
       handleNewTab(2);
    
     } else {
@@ -73,13 +73,13 @@ const NavBar: React.FC = () => {
           )}
          
           <li>
-            <Link href="/atuacoes">
-              <a>Atuações</a>
+            <Link href="/curriculo">
+              <a>currículo</a>
             </Link>
           </li>
           <li>
             <Link href="/portfolio">
-              <a>Portfolio</a>
+              <a>portfolio</a>
             </Link>
           </li>
           <li>

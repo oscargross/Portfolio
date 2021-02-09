@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import {
   Container,
   ButtonContainer,
-} from '../../styles/portfolio/bergdaniel/styles';
+} from '../../styles/portfolio/portfolio_pages/styles';
 import Button from '../../components/Button';
 
 export default function Star_Wars(): JSX.Element {
@@ -55,7 +55,7 @@ export default function Star_Wars(): JSX.Element {
           - Descrição técnica:
           <span>
             {' '}
-            Utilizado Express, Axios e React para componetização.
+            Utilizado Express, Axios e React para componentização.
           </span>
         </strong>
         <ButtonContainer>
