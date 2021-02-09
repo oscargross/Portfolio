@@ -44,7 +44,7 @@ export default function Portfolio(): JSX.Element {
 
         <h1>Projetos</h1>
         <Project>
-          <img src="/assets/blog_estetica.png" alt="Logo Blog Compare Estetica" />
+          <img src="/assets/portfolio_images/blog_estetica.png" alt="Logo Blog Compare Estetica" />
           <Text>
             <strong>
               - Finalidade:
@@ -85,7 +85,7 @@ export default function Portfolio(): JSX.Element {
         </Project>
 
         <Project>
-          <img src="/assets/portfolio_project.png" alt="Logo Portfólio Oscar Gross" />
+          <img src="/assets/portfolio_images/portfolio_project.png" alt="Logo Portfólio Oscar Gross" />
           <Text>
             <strong>
               - Finalidade:
@@ -127,7 +127,7 @@ export default function Portfolio(): JSX.Element {
         </Project>
 
         <Project>
-          <img src="/assets/logo_fluxo_de_caixa.png" alt="Logo Fluxo de Caixa" />
+          <img src="/assets/portfolio_images/logo_fluxo_de_caixa.png" alt="Logo Fluxo de Caixa" />
           <Text>
             <strong>
               - Finalidade:
@@ -169,7 +169,7 @@ export default function Portfolio(): JSX.Element {
           </Text>
         </Project>
         <Project>
-          <img src="/assets/web_scraping.png" alt="Logo Biocare System" />
+          <img src="/assets/portfolio_images/web_scraping.png" alt="Logo Biocare System" />
           <Text>
             <strong>
               - Finalidade:
@@ -211,7 +211,7 @@ export default function Portfolio(): JSX.Element {
           </Text>
         </Project>
         <Project>
-          <img src="/assets/flutter_services.png" alt="Logo App Agendamento de Serviços" />
+          <img src="/assets/portfolio_images/flutter_services.png" alt="Logo App Agendamento de Serviços" />
           <Text>
             <strong>
               - Finalidade:
@@ -245,7 +245,7 @@ export default function Portfolio(): JSX.Element {
           </Text>
         </Project>
         <Project>
-          <img src="/assets/ranking_places.png" alt="Logo App Ranking Places" />
+          <img src="/assets/portfolio_images/ranking_places.png" alt="Logo App Ranking Places" />
           <Text>
             <strong>
               - Finalidade:
@@ -288,7 +288,7 @@ export default function Portfolio(): JSX.Element {
         </Project>
 
         <Project>
-          <img src="/assets/star_wars.png" alt="Logo Star Wars" />
+          <img src="/assets/portfolio_images/star_wars.png" alt="Logo Star Wars" />
           <Text>
             <strong>
               - Finalidade:
