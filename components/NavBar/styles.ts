@@ -65,13 +65,13 @@ export const Container = styled.div<ContainerProps>`
   align-items: center;
 
   li:nth-child(${(props): number => props.tab}) a {
-    color: #d60000;
+    color: #08a800;
   }
 
   h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
-    color: #d60000;
+    color: #08a800;
   }
 
   li {

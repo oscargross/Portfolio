@@ -26,7 +26,7 @@ export default function Ranking_Places(): JSX.Element {
       </Head>
       <Container>
         <h1>Ranking Places</h1>
-        <img src="/assets/ranking_places.png" alt="Logo App Ranking Places" />
+        <img src="/assets/portfolio_images/ranking_places.png" alt="Logo App Ranking Places" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de um Site</span>

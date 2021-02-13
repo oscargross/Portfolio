@@ -1,7 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { BsBarChart } from "react-icons/bs";
 import { FaMoon, FaSun} from 'react-icons/fa';
 
 import { useTheme } from '../../context/theme';
@@ -41,9 +40,9 @@ const NavBar: React.FC = () => {
     if (pathname === '/contato') {
       handleNewTab(4);
     } else if (pathname === '/portfolio') {
-      handleNewTab(3);
-    } else if (pathname === '/curriculo') {
       handleNewTab(2);
+    } else if (pathname === '/curriculo') {
+      handleNewTab(3);
    
     } else {
       handleOpen(true);
@@ -56,7 +55,7 @@ const NavBar: React.FC = () => {
         <Link href="/">
           <a>
             <h3>
-              Oscar Gross Jr <BsBarChart size={28} color="#d60000"/> 
+              Oscar Gross Jr 
             </h3>
           </a>
         </Link>
@@ -73,13 +72,13 @@ const NavBar: React.FC = () => {
           )}
          
           <li>
-            <Link href="/curriculo">
-              <a>currículo</a>
+            <Link href="/portfolio">
+              <a>portfolio</a>
             </Link>
           </li>
           <li>
-            <Link href="/portfolio">
-              <a>portfolio</a>
+            <Link href="/curriculo">
+              <a>currículo</a>
             </Link>
           </li>
           <li>
