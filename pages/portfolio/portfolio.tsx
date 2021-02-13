@@ -26,7 +26,7 @@ export default function Portfolio_Project(): JSX.Element {
       </Head>
       <Container>
         <h1>Portfolio Pessoal</h1>
-        <img src="/assets/portfolio_project.png" alt="Logo Portfólio Oscar Gross" />
+        <img src="/assets/portfolio_images/portfolio_project.png" alt="Logo Portfólio Oscar Gross" />
         <strong>
           - Projeto:
           <span> Desenvolvimento em NextJS</span>

@@ -5,7 +5,7 @@ export const StyledButton = styled.button`
   align-items: center;
   padding: 10px;
   border-radius: 6px;
-  background-color: #9c0000;
+  background-color: #08a800;
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -13,7 +13,7 @@ export const StyledButton = styled.button`
   transition: background-color 200ms;
 
   &:hover {
-    background-color: #bd0000;
+    background-color: #09bf00;
   }
 
   svg {

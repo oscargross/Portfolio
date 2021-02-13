@@ -99,7 +99,7 @@ export const Form = styled.form<FormProps>`
     border: 0;
     border-radius: 6px;
     color: #fff;
-    background-color: #9C0000;
+    background-color: #08a800;
     font-weight: 700;
     padding: 6px 14px;
     transition: background-color 200ms;
@@ -116,7 +116,7 @@ export const Form = styled.form<FormProps>`
   }
 
   button:hover {
-    background-color: #ff2929;
+    background-color: #09bf00;
   }
 
   @media (max-width: 950px) {

@@ -25,8 +25,8 @@ export default function Star_Wars(): JSX.Element {
         />
       </Head>
       <Container>
-        <h1>Blog Estética</h1>
-        <img src="/assets/star_wars.png" alt="Logo Star Wars" />
+        <h1>Star Wars</h1>
+        <img src="/assets/portfolio_images/star_wars.png" alt="Logo Star Wars" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de um site com consumo de uma API</span>

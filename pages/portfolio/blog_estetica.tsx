@@ -26,7 +26,7 @@ export default function Blog_Estetica(): JSX.Element {
       </Head>
       <Container>
         <h1>Blog Estética</h1>
-        <img src="/assets/blog_estetica.png" alt="Logo Blog Compare Estetica" />
+        <img src="/assets/portfolio_images/blog_estetica.png" alt="Logo Blog Compare Estetica" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de um Blog em NextJS</span>

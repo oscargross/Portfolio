@@ -26,7 +26,7 @@ export default function Web_Scraping(): JSX.Element {
       </Head>
       <Container>
         <h1>Web Scraping</h1>
-        <img src="/assets/web_scraping.png" alt="Logo Biocare System" />
+        <img src="/assets/portfolio_images/web_scraping.png" alt="Logo Biocare System" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de site com auxilio de raspagem de dados realizado no back end</span>

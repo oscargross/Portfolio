@@ -26,7 +26,7 @@ export default function Fluxo_Caixa(): JSX.Element {
       </Head>
       <Container>
         <h1>Fluxo de Caixa</h1>
-        <img src="/assets/logo_fluxo_de_caixa.png" alt="Logo Fluxo de Caixa" />
+        <img src="/assets/portfolio_images/logo_fluxo_de_caixa.png" alt="Logo Fluxo de Caixa" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de um Blog em NextJS</span>

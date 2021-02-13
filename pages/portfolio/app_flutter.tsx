@@ -26,7 +26,7 @@ export default function App_Flutter(): JSX.Element {
       </Head>
       <Container>
         <h1>Aplicativo híbrido em Flutter</h1>
-        <img src="/assets/flutter_services.png" alt="Logo App Agendamento de Serviços" />
+        <img src="/assets/portfolio_images/flutter_services.png" alt="Logo App Agendamento de Serviços" />
         <strong>
           - Projeto:
           <span> Desenvolvimento de aplicativo mobile híbrido</span>
