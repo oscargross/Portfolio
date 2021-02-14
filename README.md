@@ -1,5 +1,4 @@
-# Portfolio
-Portfolio Pessoal
+# Portfólio
+Portfólio Pessoal
 
-Portfolio pessoal em NextJS
-Em breve estará completo..
+Portfólio pessoal em NextJS - acesse em https://oscargross.vercel.app/contato

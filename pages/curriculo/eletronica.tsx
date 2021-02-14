@@ -31,7 +31,7 @@ export default function Eletronica(): JSX.Element {
       </Container>
       <ImgCertificates>
      
-        <img src="/assets/cursos/using_cursos_images/.png" alt="Certificado Edificações" />
+        <img src="/assets/cursos/using_cursos_images/.png" alt="Certificado Eletrônica" />
 
         <Link href="/curriculo">
           <a>

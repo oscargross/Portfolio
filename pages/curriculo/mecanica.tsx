@@ -34,7 +34,7 @@ export default function Mecanica(): JSX.Element {
       </Container>
       <ImgCertificates>
      
-        <img src="/assets/cursos/using_cursos_images/.png" alt="Certificado Edificações" />
+        <img src="/assets/cursos/using_cursos_images/.png" alt="Certificado Mecânica" />
 
         <Link href="/curriculo">
           <a>

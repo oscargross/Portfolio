@@ -13,7 +13,7 @@ export default function Portfolio_Project(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Portfolio | Portfolio | Oscar Gross</title>
+        <title>Portfólio | Portfólio | Oscar Gross</title>
         <meta
           name="og:title"
           property="og:title"
@@ -21,11 +21,11 @@ export default function Portfolio_Project(): JSX.Element {
         />
         <meta
           name="description"
-          content="Site para mostra o Portfolio Oscar Gross"
+          content="Site para mostra o Portfólio Oscar Gross"
         />
       </Head>
       <Container>
-        <h1>Portfolio Pessoal</h1>
+        <h1>Portfólio Pessoal</h1>
         <img src="/assets/portfolio_images/portfolio_project.png" alt="Logo Portfólio Oscar Gross" />
         <strong>
           - Projeto:
