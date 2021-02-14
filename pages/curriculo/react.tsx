@@ -11,8 +11,8 @@ export default function React(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Curriculo | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="Curriculo" />
+        <title>React | Oscar Gross Jr</title>
+        <meta name="og:title" property="og:title" content="React" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"

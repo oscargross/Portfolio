@@ -12,7 +12,7 @@ export default function Hackathon(): JSX.Element {
     <>
       <Head>
         <title>Hackathon | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="Curriculo" />
+        <meta name="og:title" property="og:title" content="Hackathon" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"
@@ -24,14 +24,17 @@ export default function Hackathon(): JSX.Element {
 
         <strong>
           <span>
-            Fomos desafiados a desenvover, em 24h, enigmas para novas salas de escape da Time Escape Game. Essa empresa
-            trabalha com gamificação e desenvolvimento de pessoas para escaparem de salas com diversos enigmas.
-            Nosso grupo foi o ganhador, trabalhando as 24h em um fluxo de enigmas com o tema "Caverna do Dragão"
-            utilizando muitas placas arduino, shields, raspberry Pi, sensores, atuadores e programação para unir todas as peças dos enigmas.
-            <br /><br />
+            
+          Em Maio de 2019, fomos desafiados a criar novos enigmas para salas de escape da Time Escape Game qual 
+          trabalha com gamificação objetivando escapar de diversas salas. <br /><br />
+          Com o nome EXCALIBUR, fomos os vencedores deste Hackathon com os melhores enigmas com o tema de Caverna do Dragão 
+          desenvolvidos em apenas e intensas 24 horas em um evento que reuniu mais de cinquenta alunos na IMED. 
+          <br />Utilizamos muitas placas arduino, shields, 
+          raspberry Pi, sensores, atuadores e programação para unir todas as peças e então, estar livre da sala. 
+            
+            
+            
 
-            O evento ocorreu nos dias 03 e 04 de maio de 2019 na IMED-PF e reuniu
-            mais de 50 alunos.
             <br /> Veja nas noticias da IMED {" "}</span>
           <a
             href="https://www.imed.edu.br/Comunicacao/Noticias/hackathon-imed--24h-de-maratona-tecnologica"

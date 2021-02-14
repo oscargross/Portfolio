@@ -21,7 +21,7 @@ export default function Star_Wars(): JSX.Element {
         />
         <meta
           name="description"
-          content="Aplicativo mobile híbrido feito com React Native, Redux e Firebase"
+          content="Web Star Wars"
         />
       </Head>
       <Container>
@@ -48,7 +48,7 @@ export default function Star_Wars(): JSX.Element {
           - Contexto:
           <span>
             {' '}
-            Site criado na graduação para consumo de uma API pública e mostra dos dados coletados no site feito em React.
+            Site criado na graduação para consumo de uma API pública e apresentação dos dados coletados no site feito em React.
           </span>
         </strong>
         <strong><br />

@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { FaGithub } from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
-
+import {
+  ImgCertificates
+} from '../../styles/cursos/styles';
 
 import {
   Container,
@@ -34,7 +36,7 @@ export default function Fluxo_Caixa(): JSX.Element {
         <strong>
           - Função:
           <span> Desenvolvedor</span>
-        </strong>       
+        </strong>
         <strong>
           - Tecnologias do Frontend/Backend:
           <span> Java / Postgresql</span>
@@ -43,13 +45,13 @@ export default function Fluxo_Caixa(): JSX.Element {
           - Hospedagem:
           <span> Heroku</span>
         </strong>
-      
+
         <strong><br />
           - Contexto:
           <span>
             {' '}
-            Projeto montado na graduação para controle de fluxo de caixa. Com cadastro e login, é possível realizar controle financeiro, com lançamentos de 
-            debitos e créditos, extratos em períodos de tempo, salvar o extrato em pdf, emitir futuros gastos e gestão mensal. 
+            Projeto montado na graduação para controle de fluxo de caixa. Com cadastro e login, é possível realizar controle financeiro, com lançamentos de
+            debitos e créditos, extratos em períodos de tempo, salvar o extrato em pdf, emitir futuros gastos e gestão mensal.
           </span>
         </strong>
         <strong><br />
@@ -70,6 +72,13 @@ export default function Fluxo_Caixa(): JSX.Element {
           </Button>
         </ButtonContainer>
       </Container>
+      <ImgCertificates>
+
+        <img src="/assets/portfolio_images/using_portfolio_images/fluxo_de_caixa.png" alt="Print aplicação Fluxo de Caixa" />
+        <img src="/assets/portfolio_images/using_portfolio_images/fluxo_de_caixa2.png" alt="Print aplicação Fluxo de Caixa" />
+        <img src="/assets/portfolio_images/using_portfolio_images/fluxo_de_caixa3.png" alt="Print aplicação Fluxo de Caixa" />
+
+      </ImgCertificates>
     </>
   );
 }

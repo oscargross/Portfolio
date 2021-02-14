@@ -11,8 +11,8 @@ export default function Node(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Curriculo | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="Curriculo" />
+        <title>Node | Oscar Gross Jr</title>
+        <meta name="og:title" property="og:title" content="Node" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"

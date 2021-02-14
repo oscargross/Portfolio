@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { FaGithub } from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
-
+import {
+  ImgCertificates
+} from '../../styles/cursos/styles';
 
 import {
   Container,
@@ -21,7 +23,7 @@ export default function Ranking_Places(): JSX.Element {
         />
         <meta
           name="description"
-          content="Aplicativo mobile híbrido feito com React Native, Redux e Firebase"
+          content="Web App Ranking Places"
         />
       </Head>
       <Container>
@@ -53,7 +55,7 @@ export default function Ranking_Places(): JSX.Element {
           <span>
             {' '}
             Site criado na graduação para relatar sua experiência em locais anonimamente. É possivel visualizar todas as opiniões
-             já relatadas por todos os usuários, adicionar novos lugares, e opinar sobre algum local, além de editar ou deletar suas opiniões, caso troque após nova experiência 
+             já relatadas por todos os usuários, adicionar novos lugares e opinar sobre algum local, além de editar ou deletar suas opiniões, caso troque após nova experiência 
              no local.
           </span>
         </strong>
@@ -75,6 +77,14 @@ export default function Ranking_Places(): JSX.Element {
           </Button>
         </ButtonContainer>
       </Container>
+
+      <ImgCertificates>
+        <img src="/assets/portfolio_images/using_portfolio_images/ranking_places2.png" alt="Print aplicação Ranking of Places" />
+        <img src="/assets/portfolio_images/using_portfolio_images/ranking_places3.png" alt="Print aplicação Ranking of Places" />
+        <img src="/assets/portfolio_images/using_portfolio_images/ranking_places4.png" alt="Print aplicação Ranking of Places" />
+        <img src="/assets/portfolio_images/using_portfolio_images/ranking_places5.png" alt="Print aplicação Ranking of Places" />
+
+      </ImgCertificates>
     </>
   );
 }

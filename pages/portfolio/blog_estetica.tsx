@@ -21,7 +21,7 @@ export default function Blog_Estetica(): JSX.Element {
         />
         <meta
           name="description"
-          content="Aplicativo mobile híbrido feito com React Native, Redux e Firebase"
+          content="Blog Estetica"
         />
       </Head>
       <Container>
@@ -48,11 +48,12 @@ export default function Blog_Estetica(): JSX.Element {
           - Contexto:
           <span>
             {' '}
-            Blog foi criado para expor opiniões sobre equipamentos de estética e fisioterapia 
-            no mercado, sem relação alguma as marcas, mostrando a realidade dos equipamentos, 
-            se entregam o que prometem, os modelos que apresentam problemas, quais problemas, 
-            o que levar em conta na hora de comprar um, até porque não são baratos e nao encontrei
-            nenhum blog ou local web que trate esse assunto com transparência.
+            Com a diversidade de marcas e equipamentos na área da estética e fisioterapia, o blog objetiva a 
+            comparação entre aparelhos comumente utilizados na área para que o usuário tenha clareza sobre benefícios 
+            e desvantagens específicas de cada equipamento. Vale salientar que a comparação basea-se na experiência 
+            técnica profissional sendo transparente e sem patrocínio de marcas e visa meramente apresentar dados para 
+            que o usuàrio chegue a sua conclusão e invista no equipamento que mais lhe beneficia, inclusive financeiramente 
+            falando por se tratar de altos valores. 
           </span>
         </strong>
         <strong><br />

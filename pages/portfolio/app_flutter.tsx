@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { FaGithub } from 'react-icons/fa';
-import { BiWorld } from 'react-icons/bi';
-
-
+import {
+  ImgCertificates
+} from '../../styles/cursos/styles';
 import {
   Container,
   ButtonContainer,
@@ -34,7 +34,7 @@ export default function App_Flutter(): JSX.Element {
         <strong>
           - Função:
           <span> Desenvolvedor</span>
-        </strong>       
+        </strong>
         <strong>
           - Tecnologias do Frontend:
           <span> Flutter / Dart</span>
@@ -43,16 +43,15 @@ export default function App_Flutter(): JSX.Element {
           - Banco:
           <span> Firebase</span>
         </strong>
-      
+
         <strong><br />
           - Contexto:
           <span>
             {' '}
-            Aplicativo desenvolvido na graduação para agendamento de serviços. Com cadastro e login, é possível acessar como profissional ou como cliente. Caso seja um profissional, 
-            o usuário pode cadastrar novos serviços, selecionando os dias em que está disponível e valor do serviço, verifica se algum cliente quiz realizar um agendamento de algum serviço
-            cadastrado e modificar dados de seu perfil. Já o usuário cliente pode pesquisar por profissionais que estejam em sua cidade, que realizam o serviço procurado 
-            e nos dias disponíveis, sendo assim, pode enviar um convite para o profissional aceitar ou não um agendamento do serviço. O serviço ficará pendente até o profissional aceitá-lo. E também pode alterar 
-            dados de seu perfil.</span>
+            Facilitando a contratação de serviços, o app conecta clientes e fornecedores das mais diversas áreas de atuação. 
+            Como cliente é possível pesquisar por tipo de serviço ou cidade que necessita. Já como profissional é possível 
+            cadastrar todos os serviços que disponibiliza, bem como seu preço e dias disponíveis sendo necessário o aceite para 
+            efetivação do contrato. Todo o histórico fica salvo para possiveis recontratações.</span>
         </strong>
         <strong><br />
           - Descrição técnica:
@@ -67,9 +66,16 @@ export default function App_Flutter(): JSX.Element {
             <FaGithub size={25} color="#fff" />
             Código
           </Button>
-         
+
         </ButtonContainer>
       </Container>
+      <ImgCertificates>
+        <img src="/assets/portfolio_images/using_portfolio_images/flutter_services2.png" alt="Print aplicação Flutter Serviços App" />
+        <img src="/assets/portfolio_images/using_portfolio_images/flutter_services3.png" alt="Print aplicação Flutter Serviços App" />
+        <img src="/assets/portfolio_images/using_portfolio_images/flutter_services4.png" alt="Print aplicação Flutter Serviços App" />
+        <img src="/assets/portfolio_images/using_portfolio_images/flutter_services5.png" alt="Print aplicação Flutter Serviços App" />
+        <img src="/assets/portfolio_images/using_portfolio_images/flutter_services6.png" alt="Print aplicação Flutter Serviços App" />
+      </ImgCertificates>
     </>
   );
 }
