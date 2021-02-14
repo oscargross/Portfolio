@@ -7,12 +7,12 @@ import {
 } from '../../styles/cursos/styles';
 
 
-export default function React(): JSX.Element {
+export default function ReactPage(): JSX.Element {
   return (
     <>
       <Head>
-        <title>React | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="React" />
+        <title>ReactPage | Oscar Gross Jr</title>
+        <meta name="og:title" property="og:title" content="ReactPage" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"
