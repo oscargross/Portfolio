@@ -11,8 +11,8 @@ export default function Js (): JSX.Element {
   return (
     <>
       <Head>
-        <title>Curriculo | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="Curriculo" />
+        <title>Js | Oscar Gross Jr</title>
+        <meta name="og:title" property="og:title" content="Js" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"

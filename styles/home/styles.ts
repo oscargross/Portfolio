@@ -22,7 +22,7 @@ export const RightText = styled.section`
     color: #ffffff;
     padding: 2px 4px;
     font-size: 18px;
-    background-color: #9C0000;
+    background-color: #08a800;
     font-weight: 700;
     border-radius: 4px;
     margin-bottom: 40px;
@@ -37,7 +37,8 @@ export const RightText = styled.section`
     margin-top: 5px;
     display: block;
     font-size: 22px;
-    color: #9C0000;
+    color: #08a800;
+    font-weight: bold;
   }
 
   @media (max-width: 750px) {

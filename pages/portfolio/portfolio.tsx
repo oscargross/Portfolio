@@ -48,7 +48,7 @@ export default function Portfolio_Project(): JSX.Element {
           - Contexto:
           <span>
             {' '}
-            Portfólio para mostra dos projetos que já desenvolvi e experiências no mercado de trabalho<br />
+            Portfólio para apresentar projetos desenvolvidos e experiências no mercado de trabalho.<br />
 
           </span>
         </strong>

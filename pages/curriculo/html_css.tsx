@@ -11,8 +11,8 @@ export default function HtmlCss(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Curriculo | Oscar Gross Jr</title>
-        <meta name="og:title" property="og:title" content="Curriculo" />
+        <title>HtmlCss | Oscar Gross Jr</title>
+        <meta name="og:title" property="og:title" content="HtmlCss" />
         <meta
           name="description"
           content="Graduação, experiência e projetos do Oscar Gross"

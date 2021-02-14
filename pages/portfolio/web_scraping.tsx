@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { FaGithub } from 'react-icons/fa';
 import { BiWorld } from 'react-icons/bi';
-
+import {
+  ImgCertificates
+} from '../../styles/cursos/styles';
 
 import {
   Container,
@@ -48,10 +50,12 @@ export default function Web_Scraping(): JSX.Element {
           - Contexto:
           <span>
             {' '}
-            O projeto teve inicio para automatizar o envio de avisos de próximas manutenções via What'sApp de equipamentos de estética, os quais precisam passar
-             por calibração periódica, porém os avisos ocorriam manualmente. Com a raspagem de dados dos clientes no ERP que a empresa utiliza, foram coletados os dados 
-             de telefone/Whats dos clientes os quais seu(s) equipamento(s) passaram por manutenção a um ano/seis meses atrás, e envio das mensagens automáticas de aviso via Whats.
-             No README do projeto foi descrito todo o caso de uso.
+            Visando a otimização do tempo, fez-se necessário um sistema de automação qual encaminhe via whatsapp, 
+            lembretes da necessidade de manutenção/revisão periódica de equipamentos para a garantia do bom funcionamento. 
+            Tal tarefa era realizada manualmente, o que ocupava boa parte do tempo dos técnicos e, não sendo efetivo. Assim, 
+            com a raspagem de dados dos clienes no ERP utilizado pela empresa, são coletados dados de telefone/whatsapp e quais 
+            os equipamentos passaram por revisão no período de seis meses à um ano para encaminhar o aviso. Descrição completa 
+            do projeto no README(git).
           </span>
         </strong>
         <strong><br />
@@ -76,6 +80,12 @@ export default function Web_Scraping(): JSX.Element {
           </Button>
         </ButtonContainer>
       </Container>
+      <ImgCertificates>
+
+        <img src="/assets/portfolio_images/web_scraping.png" alt="Print aplicação Web Scraping" />
+        <img src="/assets/portfolio_images/using_portfolio_images/web_scraping2.png" alt="Print aplicação Web Scraping" />
+
+      </ImgCertificates>
     </>
   );
 }
