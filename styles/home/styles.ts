@@ -73,7 +73,7 @@ export const Hello = styled.div`
 
   img {
     border-radius: 50%;
-    width: 300px;
+    width: 250px;
 
   }
 

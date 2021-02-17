@@ -47,7 +47,8 @@ export default function Home(): JSX.Element {
           <RightText>
             <h1>Desenvolvedor Web</h1>
             <h2>
-              Tenho foco no desenvolvimento com Javascript para aplicações web.</h2>
+         
+              Foco no desenvolvimento com Javascript para aplicações web.</h2>
             <p>
               Tecnologias e ferramentas que já utilizei: NodeJS, ReactJS, NextJS, Typescript.
             </p>

@@ -103,7 +103,7 @@ export default function Portfolio(): JSX.Element {
                 Portfólio para mostra dos projetos que já desenvolvi e experiências no mercado de trabalho<br />
                 Site: </span>
               <a
-                href=""
+                href="https://oscargross.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -111,7 +111,7 @@ export default function Portfolio(): JSX.Element {
             </a><br />
               <span>Projeto: </span>
               <a
-                href=""
+                href="https://github.com/oscargross/Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >

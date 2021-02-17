@@ -60,11 +60,11 @@ export default function Portfolio_Project(): JSX.Element {
           </span>
         </strong>
         <ButtonContainer>
-          <Button link="">
+          <Button link="https://github.com/oscargross/Portfolio">
             <FaGithub size={25} color="#fff" />
             Código
           </Button>
-          <Button link="">
+          <Button link="https://oscargross.vercel.app/">
             <BiWorld size={25} color="#fff" />
             Site
           </Button>
